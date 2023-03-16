@@ -1,5 +1,9 @@
 # Mason-Lab-Code
 
-Description
+## Introduction
 
-Link to Mason-Lab-Code GitHub user guide
+## Navigation
+
+## Downloading a workflow
+
+## Best practices
