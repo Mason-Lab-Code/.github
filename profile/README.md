@@ -8,7 +8,7 @@ This GitHub organization is a tool for sharing code between Mason Lab members.
 
 ### Git and GitHub
 
-If you are unfamiliar with Git and GitHub, watch these introductory videos: 
+If you are unfamiliar with Git and GitHub, try watching these introductory videos: 
 * *How to use GitHub*: https://www.youtube.com/watch?v=PQsJR8ci3J0
 * *Git, GitHub, and GitHub Desktop for beginners*: https://www.youtube.com/watch?v=8Dd7KRpKeaE
 
