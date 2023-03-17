@@ -22,7 +22,7 @@ Once you have a GitHub account, ask Richard or Andrew to add you as a member of 
 
 ### Personal access token
 
-To create a personal access token, follow the instructions here: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token. 
+To create a personal access token, follow the instructions [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token). 
 Select "Tokens (classic)", not "Fine-grained tokens". 
 When selecting scopes/permissions, tick "repo". 
 Make a note of your personal access token. 
