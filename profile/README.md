@@ -42,3 +42,4 @@ git clone https://github.com/Mason-Lab-Code/NanoSeq/
 
 ## Best practices 
 
+Some tips for organising your bioinformatics project: 
