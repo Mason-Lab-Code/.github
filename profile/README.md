@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-This GitHub organization is a tool for sharing code between Mason Lab members. Scripts are organised into workflows. Each workflow has its own repository. 
+The Mason-Lab-Code GitHub organization is a tool for sharing code between Mason Lab members. Scripts are organised into workflows. Each workflow has its own repository. 
 
 ## Getting started 
 
