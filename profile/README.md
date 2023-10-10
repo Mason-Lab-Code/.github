@@ -40,10 +40,6 @@ Workflows can be downloaded directly to Viking or your personal workstation. Sim
 git clone https://github.com/Mason-Lab-Code/NanoSeq/
 ```
 
-## Best practices 
+## Executing your project
 
-Some tips for organising your work during your bioinformatics project: 
-* Store the intermediate files for each step of your workflow in separate directories, numbered in chronological order - e.g. 04_fastqc_reports, 05_trimmed_fastq, 06_bam_files … 
-* Name files consistently: donor-group_otherinformation.ext e.g. Y123-Diff_paired.fq.gz (so that the different pieces of information in the file name can be separated on the hyphen, underscore and dot). 
-* Keep log files from batch submissions on Viking. 
-* Keep an electronic lab book to document everything you do. Include code snippets, exact versions of software used, and figures. 
+Follow the guidance and best practices in [here](https://docs.google.com/document/d/1ErVmye7h87_qZST_Yy40jL4VzM5gtHS6-QsC_dGfYMc/).
