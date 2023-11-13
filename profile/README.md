@@ -28,18 +28,43 @@ When selecting scopes/permissions, tick "repo".
 Make a note of your personal access token. 
 Every time Git prompts you for a "password" on the command line, enter your personal access token (not the password for your GitHub account). 
 
-### Navigating
+### Navigating Mason-Lab-Code
 
 Have a look at the Mason-Lab-Code repositories. Each workflow has its own repository, containing all of the scripts required to run the workflow. Repositories also contain a README file, detailing the function of each script, all software requirements, links to any reference files needed, and instructions on how to implement the workflow. 
 
-## Downloading a workflow 
+## Executing a new project on Viking2
 
-Workflows can be downloaded directly to Viking or your personal workstation. Simply navigate to the directory in which you would like the scripts to reside, and clone the repository. 
-```
-# Example: downloading the NanoSeq repository
-git clone https://github.com/Mason-Lab-Code/NanoSeq/
-```
+### Viking2
 
-## Executing your project
+Linux, Viking2 wiki tutorials
+Make sure you can login, do batch submissions, interactive sessions, use basic linux commands etc. 
 
-Follow the guidance and best practices in [here](https://docs.google.com/document/d/1ErVmye7h87_qZST_Yy40jL4VzM5gtHS6-QsC_dGfYMc/).
+### Viking2 group space (biol-cancerinf-2020)
+
+Directory structures
+
+### Naming system for files and directories
+
+### Create new project directory
+
+Name using naming system
+Symlinks to raw files
+
+### Run the workflow
+
+Use symlinks
+Finding reference files (most genome indicies already exist)
+Custom bash scripting (template available), name using naming system
+
+### Using git [OPTIONAL]
+
+For version control, backup, data/code sharing, and syncing projects across Viking2 and a personal workstation. 
+.gitignore (template available)
+
+### Publish completed project on GitHub
+
+Write README (template available), final push
+
+## Best practices
+
+Lab books (template available), stick to naming system, store intermediate files in chronologically numbered directories, keep log files from batch submissions
