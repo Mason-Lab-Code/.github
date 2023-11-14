@@ -66,9 +66,9 @@ For version control, backup, data/code sharing, and syncing projects across Viki
 
 ### Publish completed project on GitHub
 
-** This is easier if you have initiated git in your project directory and you already have a remote repository. 
-** Write a README.md file to accompany your project and add to your project directory. Here is a GitHub README.md template. 
-** Make final commit and push changes to GitHub. 
+* This is easier if you have initiated git in your project directory and you already have a remote repository. 
+* Write a README.md file to accompany your project and add to your project directory. Here is a GitHub README.md template. 
+* Make final commit and push changes to GitHub. 
 
 ## Best practices
 
