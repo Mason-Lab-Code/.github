@@ -70,4 +70,7 @@ Write README (template available), final push
 
 ## Best practices
 
-Lab books (template available), stick to naming system, store intermediate files in chronologically numbered directories, keep log files from batch submissions  
+* Keep a lab book to document all of your work. Include code snippets, plots, and exact versions of any software used. Here is a lab book [template](https://docs.google.com/document/d/1ySzxTRnMpt9aG01iwE2VfKpvgigy6ELyRxGaz3vkoEo/).  
+* Stick to the file/directory naming system for project directories and scripts. For other files/subdirectories inside your project directory, use your own naming system and keep it as consistent as possible.  
+* Store intermediate files in chronologically numbered directories, e.g. 00_raw-links/, 01_quality-control/, 02_fastq-trimmed/, 03_bam/, 99_logs etc.  
+* Keep log files from batch submissions to refer back to if needed.  
