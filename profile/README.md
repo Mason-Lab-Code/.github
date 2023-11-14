@@ -16,9 +16,11 @@ Directory structure, centralised directories linked to Mason-Lab-Code org
 
 ### Viking
 
-What is Viking
-Linux, Viking2 wiki tutorials  
-Make sure you can login, do batch submissions, interactive sessions, use basic linux commands etc. 
+Viking is the University of York high-performance computing (HPC) cluster. It has enough storage, memory and computing resources to carry out our bioinformatics projects. The [Viking documentation](https://vikingdocs.york.ac.uk/index.html) explains how to access and use Viking. 
+
+Viking uses the Unix/Linux operating system. If you haven't used Linux before, you can read the (Linux shell)[https://vikingdocs.york.ac.uk/beginners_guide/linux_shell.html] section of the Viking documentation. 
+
+Make sure you are comfortable using basic Linux commands, logging in to Viking, submitting batch jobs, and running interactive sessions. 
 
 ### Viking account
 
