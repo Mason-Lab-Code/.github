@@ -66,11 +66,13 @@ For version control, backup, data/code sharing, and syncing projects across Viki
 
 ### Publish completed project on GitHub
 
-Write README (template available), final push  
+** This is easier if you have initiated git in your project directory and you already have a remote repository. 
+** Write a README.md file to accompany your project and add to your project directory. Here is a GitHub README.md template. 
+** Make final commit and push changes to GitHub. 
 
 ## Best practices
 
-* Keep a lab book to document all of your work. Include code snippets, plots, and exact versions of any software used. Here is a lab book [template](https://docs.google.com/document/d/1ySzxTRnMpt9aG01iwE2VfKpvgigy6ELyRxGaz3vkoEo/).  
-* Stick to the file/directory naming system for project directories and scripts. For other files/subdirectories inside your project directory, use your own naming system and keep it as consistent as possible.  
-* Store intermediate files in chronologically numbered directories, e.g. 00_raw-links/, 01_quality-control/, 02_fastq-trimmed/, 03_bam/, 99_logs etc.  
-* Keep log files from batch submissions to refer back to if needed.  
+* Keep a **lab book** to document all of your work. Include code snippets, plots, and exact versions of any software used. Here is a lab book [template](https://docs.google.com/document/d/1ySzxTRnMpt9aG01iwE2VfKpvgigy6ELyRxGaz3vkoEo/).  
+* Stick to the **file/directory naming system** for project directories and scripts. For other files/subdirectories inside your project directory, use your own naming system and keep it as consistent as possible.  
+* Store intermediate files in **chronologically numbered directories**, e.g. 00_raw-links/, 01_quality-control/, 02_fastq-trimmed/, 03_bam/, 99_logs etc.  
+* Keep **log files** from batch submissions to refer back to if needed.  
