@@ -20,6 +20,8 @@ What is Viking
 Linux, Viking2 wiki tutorials  
 Make sure you can login, do batch submissions, interactive sessions, use basic linux commands etc. 
 
+### Viking account
+
 ### Git and GitHub
 
 If you are unfamiliar with Git and GitHub, try watching these introductory videos: 
