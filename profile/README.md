@@ -10,8 +10,9 @@ Scripts are organised into workflows. Each workflow has its own repository, cont
 ### Viking group space (biol-cancerinf-2020) 
 
 Path to Mason Lab group space on Viking: /mnt/scratch/project/biol-cancerinf-2020/  
-This directory has centralised locations for our raw data, reference data, and code (synced with Mason-Lab-Code GitHub). 
+This directory has centralised locations for our raw data, reference data, and code (synced with Mason-Lab-Code GitHub).  
 biol-cancerinf-2020 directory structure:  
+  
 ![image](https://github.com/Mason-Lab-Code/.github/assets/73953685/bf5dcd2b-4e95-4629-b31a-131fa7eadd78)
 
 ## Getting started 
