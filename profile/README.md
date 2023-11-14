@@ -56,6 +56,19 @@ Once you have a GitHub account, ask Richard or Andrew to add you as a member of 
 
 ### Naming system for files and directories
 
+Project directories (inside biol-cancerinf-2020/Projects/)  
+* YYYYMMDD-INITIALS-Project_name
+* e.g. 20231006-RG-ATACseq_Bladder_vs_Ureter
+
+Raw data directories (inside biol-cancerinf-2020/Raw-Data/)  
+* YYYYMMDD-Dataset_name
+* e.g. 20230907-RNAseq_BK21dpi
+
+Scripts  
+* Pipeline_name_0N_<script_function/programme_command>.sh e.g. RNAseq_DE_04_kallisto_index.sh / RNAseq_28a_generate_log2fc_qval_table_donor-matched.R
+* Number the script to denote at what stage in the workflow it is used (if applicable).
+* Use letters a, b, c etc. for slightly different versions of the same script e.g. RNAseq_28a_generate_log2fc_qval_table_donor-matched.R and RNAseq_28b_generate_log2fc_qval_table_unmatched.R
+
 ### Create new project directory
 
 Name using naming system
