@@ -2,9 +2,15 @@
 
 ## Introduction 
 
-The Mason-Lab-Code GitHub organization is a tool for sharing code between Mason Lab members. Scripts are organised into workflows. Each workflow has its own repository. 
+### Mason-Lab-Code GitHub organization
 
+The Mason-Lab-Code GitHub organization is a tool for sharing code between Mason Lab members. Scripts are organised into workflows. Each workflow has its own repository.  
+Have a look at the Mason-Lab-Code repositories. Each workflow has its own repository, containing all of the scripts required to run the workflow. Repositories also contain a README file, detailing the function of each script, all software requirements, links to any reference files needed, and instructions on how to implement the workflow.  
 
+### Viking group space (biol-cancerinf-2020) 
+
+Group space for Mason Lab bioinformatics projects
+Directory structure, centralised directories linked to Mason-Lab-Code org
 
 ## Getting started 
 
@@ -36,15 +42,7 @@ Once you have a GitHub account, ask Richard or Andrew to add you as a member of 
 * Make a note of your personal access token.  
 * Every time Git prompts you for a "password" on the command line, enter your personal access token (not the password for your GitHub account).  
 
-### Navigating Mason-Lab-Code
-
-Have a look at the Mason-Lab-Code repositories. Each workflow has its own repository, containing all of the scripts required to run the workflow. Repositories also contain a README file, detailing the function of each script, all software requirements, links to any reference files needed, and instructions on how to implement the workflow. 
-
 ## Executing a new project on Viking
-
-### Viking group space (biol-cancerinf-2020)
-
-Directory structures
 
 ### Naming system for files and directories
 
