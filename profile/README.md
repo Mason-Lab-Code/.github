@@ -4,7 +4,15 @@
 
 The Mason-Lab-Code GitHub organization is a tool for sharing code between Mason Lab members. Scripts are organised into workflows. Each workflow has its own repository. 
 
+
+
 ## Getting started 
+
+### Viking
+
+What is Viking
+Linux, Viking2 wiki tutorials  
+Make sure you can login, do batch submissions, interactive sessions, use basic linux commands etc. 
 
 ### Git and GitHub
 
@@ -32,14 +40,9 @@ Once you have a GitHub account, ask Richard or Andrew to add you as a member of 
 
 Have a look at the Mason-Lab-Code repositories. Each workflow has its own repository, containing all of the scripts required to run the workflow. Repositories also contain a README file, detailing the function of each script, all software requirements, links to any reference files needed, and instructions on how to implement the workflow. 
 
-## Executing a new project on Viking2
+## Executing a new project on Viking
 
-### Viking2
-
-Linux, Viking2 wiki tutorials  
-Make sure you can login, do batch submissions, interactive sessions, use basic linux commands etc. 
-
-### Viking2 group space (biol-cancerinf-2020)
+### Viking group space (biol-cancerinf-2020)
 
 Directory structures
 
