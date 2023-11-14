@@ -14,15 +14,18 @@ Directory structure, centralised directories linked to Mason-Lab-Code org
 
 ## Getting started 
 
-### Viking
+### Viking account
 
-Viking is the University of York high-performance computing (HPC) cluster. It has enough storage, memory and computing resources to carry out our bioinformatics projects. The [Viking documentation](https://vikingdocs.york.ac.uk/index.html) explains how to access and use Viking. 
+If you haven't already, complete the [Viking user application form](https://docs.google.com/forms/d/e/1FAIpQLSfXkL10ypU6EQCBB2jS5oDwTpRMo77ppl7dvdbLnXm5zrKR7Q/viewform) to request a Viking account.  
+Enter the Viking project code: **biol-cancerinf-2020**
+
+### Using Viking
+
+Viking is the University of York's high-performance computing (HPC) cluster. It has enough storage, memory and computing resources to carry out our bioinformatics projects. The [Viking documentation](https://vikingdocs.york.ac.uk/index.html) explains how to access and use Viking. 
 
 Viking uses the Unix/Linux operating system. If you haven't used Linux before, you can read the (Linux shell)[https://vikingdocs.york.ac.uk/beginners_guide/linux_shell.html] section of the Viking documentation. 
 
 Make sure you are comfortable using basic Linux commands, logging in to Viking, submitting batch jobs, and running interactive sessions. 
-
-### Viking account
 
 ### Git and GitHub
 
