@@ -1,11 +1,11 @@
-# Mason-Lab-Code
+# Mason Lab bioinformatics projects guide
 
 ## Introduction 
 
 ### Mason-Lab-Code GitHub organization
 
 The Mason-Lab-Code GitHub organization is a tool for sharing code between Mason Lab members. Scripts are organised into workflows. Each workflow has its own repository.  
-Have a look at the Mason-Lab-Code repositories. Each workflow has its own repository, containing all of the scripts required to run the workflow. Repositories also contain a README file, detailing the function of each script, all software requirements, links to any reference files needed, and instructions on how to implement the workflow.  
+Have a look at the Mason-Lab-Code repositories. Each workflow has its own repository, containing all of the scripts required to run the workflow. Repositories also contain a README file, detailing the function of each script, all software requirements, links to any reference files needed, and instructions on how to implement the workflow. (Need GitHub account with membership before being able to view).  
 
 ### Viking group space (biol-cancerinf-2020) 
 
@@ -38,7 +38,7 @@ Once you have a GitHub account, ask Richard or Andrew to add you as a member of 
 
 ### Personal access token
 
-* To create a personal access token, follow the instructions [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).  
+* To create a personal access token, follow the [instructions](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).  
 * Select "Tokens (classic)", not "Fine-grained tokens".  
 * When selecting scopes/permissions, tick "repo".  
 * Make a note of your personal access token.  
