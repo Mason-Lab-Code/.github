@@ -65,7 +65,8 @@ Raw data directories (inside biol-cancerinf-2020/Raw-Data/)
 * e.g. 20230907-RNAseq_BK21dpi
 
 Scripts  
-* Pipeline_name_0N_<script_function/programme_command>.sh e.g. RNAseq_DE_04_kallisto_index.sh / RNAseq_28a_generate_log2fc_qval_table_donor-matched.R
+* Pipeline_name_0N_<script_function/programme_command>.ext
+* e.g. RNAseq_DE_04_kallisto_index.sh / RNAseq_28a_generate_log2fc_qval_table_donor-matched.R
 * Number the script to denote at what stage in the workflow it is used (if applicable).
 * Use letters a, b, c etc. for slightly different versions of the same script e.g. RNAseq_28a_generate_log2fc_qval_table_donor-matched.R and RNAseq_28b_generate_log2fc_qval_table_unmatched.R
 
@@ -73,6 +74,10 @@ Scripts
 
 Name using naming system
 Symlinks to raw files
+
+```
+ln -s path/original-raw-file.fastq.gz path/raw-file-link.fastq.gz
+```
 
 ### Run the workflow
 
