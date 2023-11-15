@@ -90,6 +90,7 @@ ln -s /mnt/scratch/projects/biol-cancerinf-2020/Raw-Data/<YYYYMMDD-Dataset_name>
 
 ### Using git [OPTIONAL]
 
+#### Why use git? 
 For version control, backup, data/code sharing, and syncing projects across Viking2 and a personal workstation.  
 .gitignore (template available)  
 
