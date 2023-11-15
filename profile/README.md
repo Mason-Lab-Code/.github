@@ -5,9 +5,10 @@
 ### Mason-Lab-Code GitHub organization
 
 The Mason-Lab-Code GitHub organization is a centralised store for all of our code.  
+  
 Scripts are organised into workflows. Each workflow has its own repository.  
-Repositories contain a README file, detailing the function of each script, all software requirements, links to any reference files needed, a workflow overview diagram, and instructions on how to implement the workflow.  
-(GitHub account with Mason-Lab-Code membership required to view repositories.)  
+  
+Repositories contain a README file, detailing the function of each script, all software requirements, links to any reference files needed, a workflow overview diagram, and instructions on how to implement the workflow. (GitHub account with Mason-Lab-Code membership required to view repositories.)  
 
 ### Viking group space (biol-cancerinf-2020) 
 
