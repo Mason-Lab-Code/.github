@@ -26,7 +26,7 @@ Enter the Viking project code: **biol-cancerinf-2020**
 
 Viking is the University of York's high-performance computing (HPC) cluster. It has enough storage, memory and computing resources to carry out our bioinformatics projects. The [Viking documentation](https://vikingdocs.york.ac.uk/index.html) explains how to access and use Viking. 
 
-Viking uses the Unix/Linux operating system. If you haven't used Linux before, you can read the (Linux shell)[https://vikingdocs.york.ac.uk/beginners_guide/linux_shell.html] section of the Viking documentation. 
+Viking uses the Unix/Linux operating system. If you haven't used Linux before, you can read the [Linux shell](https://vikingdocs.york.ac.uk/beginners_guide/linux_shell.html) section of the Viking documentation. 
 
 Make sure you are comfortable using basic Linux commands, logging in to Viking, submitting batch jobs, and running interactive sessions. 
 
@@ -35,6 +35,8 @@ Make sure you are comfortable using basic Linux commands, logging in to Viking, 
 If you are unfamiliar with Git and GitHub, try watching these introductory videos: 
 * [*How to use GitHub*](https://www.youtube.com/watch?v=PQsJR8ci3J0)
 * [*Git, GitHub, and GitHub Desktop for beginners*](https://www.youtube.com/watch?v=8Dd7KRpKeaE)
+
+You can try following this [Introduction to Git]([https://github.com/alastair-droop/northernbug10-git-workshop/blob/main/introduction-to-git.pdf](https://github.com/alastair-droop/northernbug10-git-workshop)) workshop, which outlines how to use git on the command line. 
 
 ### GitHub account
 
