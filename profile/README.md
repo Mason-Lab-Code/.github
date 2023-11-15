@@ -92,7 +92,7 @@ ln -s /mnt/scratch/projects/biol-cancerinf-2020/Raw-Data/<YYYYMMDD-Dataset_name>
 * Use **symlinks** to raw files as input, as opposed to the original raw files. 
 * Any **reference files** required (e.g. reference genome FASTA) will be in /mnt/scratch/projects/biol-cancerinf-2020/Reference-Data/  
 * The **genome index files** have already been created for some common aligners.  
-* If writing any **custom bash scripts**, you can use this bash script template. Remember to name the script according to the naming system above. If the script would be a useful addition to a workflow, we can add it to the appropriate Mason-Lab-Code repository. 
+* If writing any **custom bash scripts** for batch submissions on Viking, you can use the sbatch script template (/mnt/scratch/projects/biol-cancerinf-2020/Mason-Lab-Code/sbatch-script-template.sh). Remember to name the script according to the naming system above. If the script would be a useful addition to a workflow, we can add it to the appropriate Mason-Lab-Code repository. 
 
 ### git [OPTIONAL]
 
