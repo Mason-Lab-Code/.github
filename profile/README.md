@@ -97,6 +97,11 @@ Initiate git
 ```
 git init
 ```
+The .gitignore file is important to specify the files and directories that you don't want git to track. This will include large files that we do not want to backup to GitHub.  
+The gitignore template (path/) lists lots of common extensions for large files (/fq.gz / .fastq.gz / .bam etc.)  
+Copy the contents of the gitignore template to the .gitignore file in your git-initiated directory.  
+Add any other expressions to match files and directories specific to your project that you don't want git to track. 
+  
 Complete your workflow - write and run code, create new files and directories, move files around etc. 
 Add contents of the directory to be tracked by git. 
 ```
@@ -119,15 +124,15 @@ Push contents of local repository to GitHub. You will be prompted to enter your 
 ```
 git push -u origin main
 ```
-Now, push any committed changes from the local repository to GitHub. 
+Now, any further committed changes made to the local repository, can be pushed to the remote repository on GitHub. 
 ```
 git push
 ```
-And pull any changes made on GitHub, to the local repository.
+And any committed changes made to the remote repository on GitHub, can be pulled to the local repository. 
 ```
 git pull
 ```
-Now that this repository is linked to a remote repository on GitHub, you can now synchronise your work across Viking and personal workstations by pushing and pulling changes on the different systems. This might be useful if you are running computationally demanding steps of your workflow on Viking, and more personalised analyses in RStudio, and you want to keep all of your work in one neat directory. 
+Now that this repository is linked to a remote repository on GitHub, you can synchronise your work across Viking and personal workstations by pushing and pulling changes on the different systems. This might be useful if you are running computationally demanding steps of your workflow on Viking, and more personalised analyses on a local workstation, and you want to keep all of your work neatly in one directory. 
 
 ### Publish completed project on GitHub
 
