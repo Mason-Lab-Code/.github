@@ -88,7 +88,7 @@ ln -s /mnt/scratch/projects/biol-cancerinf-2020/Raw-Data/<YYYYMMDD-Dataset_name>
 * The **genome index files** have already been created for some common aligners.  
 * If writing any **custom bash scripts**, you can use this bash script template. Remember to name the script according to the naming system above. If the script would be a useful addition to a workflow, we can add it to the appropriate Mason-Lab-Code repository. 
 
-### Using git [OPTIONAL]
+### git [OPTIONAL]
 
 #### Why use git? 
 * Synchronise your work across Viking and a personal workstation
@@ -101,8 +101,8 @@ ln -s /mnt/scratch/projects/biol-cancerinf-2020/Raw-Data/<YYYYMMDD-Dataset_name>
 git init
 ```
 #### .gitignore
-The .gitignore file is important to specify the files and directories that you don't want git to track. This will include large files that we do not want to backup to GitHub.  
-The gitignore template (path/) lists lots of common extensions for large files (/fq.gz / .fastq.gz / .bam etc.)  
+* The .gitignore file is important to specify the files and directories that you don't want git to track. This will include large files that we do not want to backup to GitHub.  
+* The gitignore template (path/) lists lots of common extensions for large files (/fq.gz / .fastq.gz / .bam etc.)  
 Copy the contents of the gitignore template to the .gitignore file in your git-initiated directory.  
 Add any other expressions to match files and directories specific to your project that you don't want git to track. 
 
@@ -139,11 +139,11 @@ And any committed changes made to the remote repository on GitHub, can be pulled
 git pull
 ```
 #### Synchronise a project across Viking and personal workstations
-Now that this repository is linked to a remote repository on GitHub, you can synchronise your work across Viking and personal workstations by pushing and pulling changes on the different systems. This might be useful if you are running computationally demanding steps of your workflow on Viking, and more personalised analyses on a local workstation, and you want to keep all of your work neatly in one directory. 
+* Now that this repository is linked to a remote repository on GitHub, you can synchronise your work across Viking and personal workstations by pushing and pulling changes on the different systems.
+* This might be useful if you are running computationally demanding steps of your workflow on Viking, and more personalised analyses on a local workstation, and you want to keep all of your work neatly in one directory. 
 
-### Publish completed project on GitHub
+#### Publish completed project on GitHub
 
-* This is easier if you have initiated git in your project directory and you already have a remote repository. 
 * Write a README.md file to accompany your project and add to your project directory. Here is a GitHub README.md template. 
 * Make final commit and push changes to GitHub. 
 
