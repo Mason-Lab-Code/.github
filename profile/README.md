@@ -13,7 +13,9 @@ Repositories contain a README file, detailing the function of each script, all s
 ### Viking group space (biol-cancerinf-2020) 
 
 Path to Mason Lab group space on Viking: /mnt/scratch/project/biol-cancerinf-2020/  
+  
 This directory has centralised locations for our raw data, reference data, and code (synced with Mason-Lab-Code GitHub).  
+  
 biol-cancerinf-2020 directory structure:  
   
 ![image](https://github.com/Mason-Lab-Code/.github/assets/73953685/bf5dcd2b-4e95-4629-b31a-131fa7eadd78)
@@ -27,11 +29,11 @@ Enter the Viking project code: **biol-cancerinf-2020**
 
 ### Using Viking
 
-Viking is the University of York's high-performance computing (HPC) cluster. It has enough storage, memory and computing resources to carry out our bioinformatics projects. The [Viking documentation](https://vikingdocs.york.ac.uk/index.html) explains how to access and use Viking. 
-
-Viking uses the Unix/Linux operating system. If you haven't used Linux before, you can read the [Linux shell](https://vikingdocs.york.ac.uk/beginners_guide/linux_shell.html) section of the Viking documentation. 
-
-Make sure you are comfortable using basic Linux commands, logging in to Viking, submitting batch jobs, and running interactive sessions. 
+Viking is the University of York's high-performance computing (HPC) cluster. It has enough storage, memory and computing resources to carry out our bioinformatics projects. The [Viking documentation](https://vikingdocs.york.ac.uk/index.html) explains how to access and use Viking.  
+  
+Viking uses the Unix/Linux operating system. If you haven't used Linux before, you can read the [Linux shell](https://vikingdocs.york.ac.uk/beginners_guide/linux_shell.html) section of the Viking documentation.  
+  
+Make sure you are comfortable using basic Linux commands, logging in to Viking, submitting batch jobs, and running interactive sessions.  
 
 ### Git and GitHub
 
@@ -64,11 +66,11 @@ Once you have a GitHub account, ask Richard or Andrew to add you as a member of 
 Project directories (inside biol-cancerinf-2020/Projects/)  
 * **YYYYMMDD-INITIALS-Project_name**
 * e.g. 20231006-RG-ATACseq_Bladder_vs_Ureter
-
+  
 Raw data directories (inside biol-cancerinf-2020/Raw-Data/)  
 * **YYYYMMDD-Dataset_name**
 * e.g. 20230907-RNAseq_BK21dpi
-
+  
 Scripts  
 * **Workflow_name_0N_<script_function/programme_command>.ext**
 * e.g. RNAseq_DE_04_kallisto_index.sh / RNAseq_28a_generate_log2fc_qval_table_donor-matched.R
@@ -78,6 +80,7 @@ Scripts
 ### Create new project directory
 
 Create a new directory to complete your project. Name it using the naming system above (YYYYMMDD-INITIALS-Project_name).  
+  
 Create **symlinks** to raw files:  
 
 ```
@@ -105,12 +108,16 @@ git init
 ```
 #### .gitignore
 The .gitignore file is important to specify the files and directories that you don't want git to track. This will include large files that we do not want to backup to GitHub.  
+  
 The gitignore template (path/) lists lots of common extensions for large files (/fq.gz / .fastq.gz / .bam etc.)  
+  
 Copy the contents of the gitignore template to the .gitignore file in your git-initiated directory.  
+  
 Add any other expressions to match files and directories specific to your project that you don't want git to track.  
 
 #### Complete your workflow and allow git to track changes
 Write and run code, create new files and directories, move files around etc.  
+  
 Add contents of the directory to be tracked by git.  
 ```
 git add . 
@@ -125,6 +132,7 @@ git commit -m "Commit message - what changes have been made?"
 ```
 #### Remote repository on GitHub
 Create an empty remote repository on GitHub - go to the *Repositories* tab of your GitHub profile, and click *New*.  
+  
 Link your local repository with the new remote repository. 
 ```
 git remote add origin git@github.com:<username>/new-remote-repo.git 
