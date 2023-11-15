@@ -101,14 +101,14 @@ ln -s /mnt/scratch/projects/biol-cancerinf-2020/Raw-Data/<YYYYMMDD-Dataset_name>
 git init
 ```
 #### .gitignore
-* The .gitignore file is important to specify the files and directories that you don't want git to track. This will include large files that we do not want to backup to GitHub.  
-* The gitignore template (path/) lists lots of common extensions for large files (/fq.gz / .fastq.gz / .bam etc.)  
+The .gitignore file is important to specify the files and directories that you don't want git to track. This will include large files that we do not want to backup to GitHub.  
+The gitignore template (path/) lists lots of common extensions for large files (/fq.gz / .fastq.gz / .bam etc.)  
 Copy the contents of the gitignore template to the .gitignore file in your git-initiated directory.  
-Add any other expressions to match files and directories specific to your project that you don't want git to track. 
+Add any other expressions to match files and directories specific to your project that you don't want git to track.  
 
 #### Complete your workflow and allow git to track changes
 Write and run code, create new files and directories, move files around etc.  
-Add contents of the directory to be tracked by git. 
+Add contents of the directory to be tracked by git.  
 ```
 git add . 
 ```
@@ -121,7 +121,7 @@ Commit changes
 git commit -m "Commit message - what changes have been made?"
 ```
 #### Remote repository on GitHub
-Create an empty remote repository on GitHub
+Create an empty remote repository on GitHub - go to the *Repositories* tab of your GitHub profile, and click *New*.  
 Link your local repository with the new remote repository. 
 ```
 git remote add origin git@github.com:<username>/new-remote-repo.git 
