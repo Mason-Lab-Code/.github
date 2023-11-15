@@ -36,7 +36,7 @@ If you are unfamiliar with Git and GitHub, try watching these introductory video
 * [*How to use GitHub*](https://www.youtube.com/watch?v=PQsJR8ci3J0)
 * [*Git, GitHub, and GitHub Desktop for beginners*](https://www.youtube.com/watch?v=8Dd7KRpKeaE)
 
-You can try following this [Introduction to Git]([https://github.com/alastair-droop/northernbug10-git-workshop/blob/main/introduction-to-git.pdf](https://github.com/alastair-droop/northernbug10-git-workshop)) workshop, which outlines how to use git on the command line. 
+You can try following this [Introduction to Git](https://github.com/alastair-droop/northernbug10-git-workshop) workshop, which outlines how to use git on the command line. 
 
 ### GitHub account
 
