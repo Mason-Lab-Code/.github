@@ -91,19 +91,23 @@ ln -s /mnt/scratch/projects/biol-cancerinf-2020/Raw-Data/<YYYYMMDD-Dataset_name>
 ### Using git [OPTIONAL]
 
 #### Why use git? 
-For version control, backup, data/code sharing, and syncing projects across Viking2 and a personal workstation.  
-.gitignore (template available)  
+* Synchronise your work across Viking and a personal workstation
+* Keep your work under version control
+* Backup your work to a remote repository
+* Easily share code and results on GitHub
 
-Initiate git
+#### Initiate git
 ```
 git init
 ```
+#### .gitignore
 The .gitignore file is important to specify the files and directories that you don't want git to track. This will include large files that we do not want to backup to GitHub.  
 The gitignore template (path/) lists lots of common extensions for large files (/fq.gz / .fastq.gz / .bam etc.)  
 Copy the contents of the gitignore template to the .gitignore file in your git-initiated directory.  
 Add any other expressions to match files and directories specific to your project that you don't want git to track. 
-  
-Complete your workflow - write and run code, create new files and directories, move files around etc. 
+
+#### Complete your workflow
+Write and run code, create new files and directories, move files around etc. 
 Add contents of the directory to be tracked by git. 
 ```
 git add . 
