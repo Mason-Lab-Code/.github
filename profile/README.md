@@ -93,6 +93,42 @@ ln -s /mnt/scratch/projects/biol-cancerinf-2020/Raw-Data/<YYYYMMDD-Dataset_name>
 For version control, backup, data/code sharing, and syncing projects across Viking2 and a personal workstation.  
 .gitignore (template available)  
 
+Initiate git
+```
+git init
+```
+Complete your workflow - write and run code, create new files and directories, move files around etc. 
+Add contents of the directory to be tracked by git. 
+```
+git add . 
+```
+Check the status of the git tracking. 
+```
+git status
+```
+Commit changes
+```
+git commit -m "Commit message - what changes have been made?"
+```
+Create an empty remote repository on GitHub
+Link your local repository with the new remote repository. 
+```
+git remote add origin git@github.com:<username>/new-remote-repo.git 
+```
+Push contents of local repository to GitHub. You will be prompted to enter your username and personal access token on the command line. 
+```
+git push -u origin main
+```
+Now, push any committed changes from the local repository to GitHub. 
+```
+git push
+```
+And pull any changes made on GitHub, to the local repository.
+```
+git pull
+```
+Now that this repository is linked to a remote repository on GitHub, you can now synchronise your work across Viking and personal workstations by pushing and pulling changes on the different systems. This might be useful if you are running computationally demanding steps of your workflow on Viking, and more personalised analyses in RStudio, and you want to keep all of your work in one neat directory. 
+
 ### Publish completed project on GitHub
 
 * This is easier if you have initiated git in your project directory and you already have a remote repository. 
