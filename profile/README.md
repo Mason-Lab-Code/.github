@@ -106,8 +106,8 @@ The gitignore template (path/) lists lots of common extensions for large files (
 Copy the contents of the gitignore template to the .gitignore file in your git-initiated directory.  
 Add any other expressions to match files and directories specific to your project that you don't want git to track. 
 
-#### Complete your workflow
-Write and run code, create new files and directories, move files around etc. 
+#### Complete your workflow and allow git to track changes
+Write and run code, create new files and directories, move files around etc.  
 Add contents of the directory to be tracked by git. 
 ```
 git add . 
@@ -120,6 +120,7 @@ Commit changes
 ```
 git commit -m "Commit message - what changes have been made?"
 ```
+#### Remote repository on GitHub
 Create an empty remote repository on GitHub
 Link your local repository with the new remote repository. 
 ```
@@ -137,6 +138,7 @@ And any committed changes made to the remote repository on GitHub, can be pulled
 ```
 git pull
 ```
+#### Synchronise a project across Viking and personal workstations
 Now that this repository is linked to a remote repository on GitHub, you can synchronise your work across Viking and personal workstations by pushing and pulling changes on the different systems. This might be useful if you are running computationally demanding steps of your workflow on Viking, and more personalised analyses on a local workstation, and you want to keep all of your work neatly in one directory. 
 
 ### Publish completed project on GitHub
