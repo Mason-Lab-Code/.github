@@ -18,7 +18,7 @@ This directory has centralised locations for our raw data, reference data, and c
   
 biol-cancerinf-2020 directory structure:  
   
-![image](https://github.com/Mason-Lab-Code/.github/assets/73953685/bf5dcd2b-4e95-4629-b31a-131fa7eadd78)
+![image](https://github.com/Mason-Lab-Code/.github/assets/73953685/09b1cd94-b1ce-40f1-847e-d27f7b7b9542)
 
 ## Getting started 
 
