@@ -113,7 +113,11 @@ The .gitignore file is important to specify the files and directories that you d
 The gitignore template (path/) lists lots of common extensions for large files (/fq.gz / .fastq.gz / .bam etc.)  
   
 Copy the contents of the gitignore template to the .gitignore file in your git-initiated directory.  
-  
+
+```
+cp /mnt/scratch/projects/biol-cancerinf-2020/Mason-Lab-Code/gitignore.template /mnt/scratch/projects/biol-cancerinf-2020/Projects/<YYYYMMDD-INITIALS-Project_name>/.gitignore
+```
+
 Add any other expressions to match files and directories specific to your project that you don't want git to track.  
 
 #### Complete your workflow and allow git to track changes
