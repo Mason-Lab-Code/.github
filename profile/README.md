@@ -84,7 +84,8 @@ Create a new directory to complete your project. Name it using the naming system
 Create **symlinks** to raw files:  
 
 ```
-ln -s /mnt/scratch/projects/biol-cancerinf-2020/Raw-Data/<YYYYMMDD-Dataset_name>/raw-file.fastq.gz /mnt/scratch/projects/biol-cancerinf-2020/Projects/<YYYYMMDD-INITIALS-Project_name>/raw-file.fastq.gz
+mkdir /mnt/scratch/projects/biol-cancerinf-2020/Projects/<YYYYMMDD-INITIALS-Project_name>/00_raw/
+ln -s /mnt/scratch/projects/biol-cancerinf-2020/Raw-Data/<YYYYMMDD-Dataset_name>/raw-file.fastq.gz /mnt/scratch/projects/biol-cancerinf-2020/Projects/<YYYYMMDD-INITIALS-Project_name>/00_raw/raw-file.fastq.gz
 ```
 
 ### Run the workflow
@@ -163,4 +164,4 @@ git pull
 * Keep a **lab book** to document all of your work. Include code snippets, plots, and exact versions of any software used. Here is a lab book [template](https://docs.google.com/document/d/1ySzxTRnMpt9aG01iwE2VfKpvgigy6ELyRxGaz3vkoEo/).  
 * Stick to the **file/directory naming system** for project directories and scripts. For other files/subdirectories inside your project directory, use your own naming system and keep it as consistent as possible.  
 * Store intermediate files in **chronologically numbered directories**, e.g. 00_raw-links/, 01_quality-control/, 02_fastq-trimmed/, 03_bam/, 99_logs etc.  
-* Keep **log files** from batch submissions to refer back to if needed.  
+* Keep **log files** from batch submissions.  
