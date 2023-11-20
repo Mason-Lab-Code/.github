@@ -121,15 +121,19 @@ Commit changes
 ```
 git commit -m "Commit message - what changes have been made?"
 ```
-#### Remote repository on GitHub
-Create an empty remote repository on GitHub - go to the *Repositories* tab of your GitHub profile, and click *New*.  
+#### SSH key
 
 Set up SSH Key (for authentication between Viking and GitHub)  
+  
 On Viking, print the content of your public key using the command below.  
 ```
 cat ~/.ssh/id_alcescluster.pub
 ```
 On GitHub, go to *Settings* > *SSH and GPG keys* > *New SSK key* and paste the content above into the *Key* box.  
+
+#### Remote repository on GitHub
+
+Create an empty remote repository on GitHub - go to the *Repositories* tab of your GitHub profile, and click *New*.  
   
 Link your local repository with the new remote repository.  
 ```
