@@ -141,7 +141,7 @@ git remote add origin git@github.com:<username>/new-remote-repo.git
 ```
 Push contents of local repository to GitHub. You will be prompted to enter your username and personal access token on the command line. 
 ```
-git push -u origin main
+git push -u origin master # or: git push -u origin main
 ```
 Now, any further committed changes made to the local repository, can be pushed to the remote repository on GitHub. 
 ```
