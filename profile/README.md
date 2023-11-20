@@ -80,20 +80,6 @@ Scripts
 ### Create new project directory
 
 Create a new directory to complete your project. Name it using the naming system above (YYYYMMDD-INITIALS-Project_name).  
-  
-Create **symlinks** to raw files:  
-
-```
-mkdir /mnt/scratch/projects/biol-cancerinf-2020/Projects/<YYYYMMDD-INITIALS-Project_name>/00_raw/
-ln -s /mnt/scratch/projects/biol-cancerinf-2020/Raw-Data/<YYYYMMDD-Dataset_name>/raw-file.fastq.gz /mnt/scratch/projects/biol-cancerinf-2020/Projects/<YYYYMMDD-INITIALS-Project_name>/00_raw/raw-file.fastq.gz
-```
-
-### Run the workflow
-
-* Use **symlinks** to raw files as input, as opposed to the original raw files. 
-* Any **reference files** required (e.g. reference genome FASTA) will be in /mnt/scratch/projects/biol-cancerinf-2020/Reference-Data/  
-* The **genome index files** have already been created for some common aligners.  
-* If writing any **custom bash scripts** for batch submissions on Viking, you can use the sbatch script template (/mnt/scratch/projects/biol-cancerinf-2020/Mason-Lab-Code/sbatch-script-template.sh). Remember to name the script according to the naming system above. If the script would be a useful addition to a workflow, we can add it to the appropriate Mason-Lab-Code repository. 
 
 ### git [OPTIONAL]
 
@@ -158,7 +144,25 @@ git pull
 * Now that this repository is linked to a remote repository on GitHub, you can synchronise your work across Viking and personal workstations by pushing and pulling changes on the different systems.
 * This might be useful if you are running computationally demanding steps of your workflow on Viking, and more personalised analyses on a local workstation, and you want to keep all of your work neatly in one directory. 
 
-#### Publish completed project on GitHub
+### Run the workflow
+
+#### Symlinks
+
+Create **symlinks** to raw files:  
+
+```
+mkdir /mnt/scratch/projects/biol-cancerinf-2020/Projects/<YYYYMMDD-INITIALS-Project_name>/00_raw/
+ln -s /mnt/scratch/projects/biol-cancerinf-2020/Raw-Data/<YYYYMMDD-Dataset_name>/raw-file.fastq.gz /mnt/scratch/projects/biol-cancerinf-2020/Projects/<YYYYMMDD-INITIALS-Project_name>/00_raw/raw-file.fastq.gz
+```
+
+* Use **symlinks** to raw files as input, as opposed to the original raw files.
+#### Reference files
+* Any **reference files** required (e.g. reference genome FASTA) will be in /mnt/scratch/projects/biol-cancerinf-2020/Reference-Data/  
+* The **genome index files** have already been created for some common aligners.
+#### Custom bash scripts
+* If writing any **custom bash scripts** for batch submissions on Viking, you can use the sbatch script template (/mnt/scratch/projects/biol-cancerinf-2020/Mason-Lab-Code/sbatch-script-template.sh). Remember to name the script according to the naming system above. If the script would be a useful addition to a workflow, we can add it to the appropriate Mason-Lab-Code repository. 
+
+### Publish completed project on GitHub
 
 * Write a README.md file to accompany your project and add to your project directory. Here is a GitHub README.md template. 
 * Make final commit and push changes to GitHub. 
