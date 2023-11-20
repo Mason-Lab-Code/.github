@@ -152,7 +152,7 @@ And any committed changes made to the remote repository on GitHub, can be pulled
 git pull
 ```
 #### Synchronise a project across Viking and personal workstations
-* Now that this repository is linked to a remote repository on GitHub, you can synchronise your work across Viking and personal workstations by pushing and pulling changes on the different systems.
+* Now that this repository is linked to a remote repository on GitHub, you can synchronise your work across Viking and personal workstations by cloning the repository (git clone <repo URL>) and then pushing and pulling changes on the different systems.
 * This might be useful if you are running computationally demanding steps of your workflow on Viking, and more personalised analyses on a local workstation, and you want to keep all of your work neatly in one directory. 
 
 ### Run the workflow
