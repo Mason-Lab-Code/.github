@@ -175,7 +175,8 @@ ln -s /mnt/scratch/projects/biol-cancerinf-2020/Raw-Data/<YYYYMMDD-Dataset_name>
 
 ### Publish completed project on GitHub
 
-* Write a README.md file to accompany your project and add to your project directory. Here is a GitHub README.md template. 
+* Write a README.md file to accompany your project and add to your project directory.
+* GitHub README.md template: /mnt/scratch/projects/biol-cancerinf-2020/Mason-Lab-Code/GitHub-README-template.md 
 * Make final commit and push changes to GitHub. 
 
 ## Best practices
