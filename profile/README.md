@@ -57,7 +57,7 @@ You can try following this [Introduction to Git](https://github.com/alastair-dro
 
 If you don't already have a GitHub account, create one. Click *Sign Up* in the top right corner. 
 
-### Membership
+### Mason-Lab-Code membership
 
 Once you have a GitHub account, ask Richard or Andrew to add you as a member of the Mason-Lab-Code organization. This will give you access to all of our code repositories.  
 
