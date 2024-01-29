@@ -10,13 +10,17 @@ Scripts are organised into workflows. Each workflow has its own repository.
   
 Repositories contain a README file, detailing the function of each script, all software requirements, links to any reference files needed, a workflow overview diagram, and instructions on how to implement the workflow. (GitHub account with Mason-Lab-Code membership required to view repositories.)  
 
+### Viking  
+
+Viking is the University of York's high-performance computing (HPC) cluster. It has enough storage, memory and computing resources to carry out our bioinformatics projects.  
+
 ### Viking group space (biol-cancerinf-2020) 
 
 Path to Mason Lab group space on Viking: /mnt/scratch/project/biol-cancerinf-2020/  
   
 This directory has centralised locations for our raw data, reference data, and code (synced with Mason-Lab-Code GitHub).  
   
-biol-cancerinf-2020 directory structure:  
+biol-cancerinf-2020 directory structure (as of November 2023):  
   
 ![image](https://github.com/Mason-Lab-Code/.github/assets/73953685/09b1cd94-b1ce-40f1-847e-d27f7b7b9542)
 
@@ -29,11 +33,17 @@ Enter the Viking project code: **biol-cancerinf-2020**
 
 ### Using Viking
 
-Viking is the University of York's high-performance computing (HPC) cluster. It has enough storage, memory and computing resources to carry out our bioinformatics projects. The [Viking documentation](https://vikingdocs.york.ac.uk/index.html) explains how to access and use Viking.  
+The [Viking documentation](https://vikingdocs.york.ac.uk/index.html) explains how to access and use Viking.  
   
-Viking uses the Unix/Linux operating system. If you haven't used Linux before, you can read the [Linux shell](https://vikingdocs.york.ac.uk/beginners_guide/linux_shell.html) section of the Viking documentation.  
-  
-Make sure you are comfortable using basic Linux commands, logging in to Viking, submitting batch jobs, and running interactive sessions.  
+Make sure you are comfortable using logging into Viking, navgiating around Viking using Unix/Linux commands, submitting batch jobs, and running interactive sessions.  
+
+### Unix/Linux
+
+Viking uses the Unix/Linux operating system. If you haven't used Linux before, you can read the [Linux shell](https://vikingdocs.york.ac.uk/beginners_guide/linux_shell.html) section of the Viking documentation, and/or follow [The Unix Shell](https://swcarpentry.github.io/shell-novice/) tutorial from Software Carpentry, which is designed for beginners.  
+
+### R and Python 
+
+If your project involves programming in R and Python, and you haven't used these languages before or just need to refresh your skills, you can follow the [Programming with R](https://swcarpentry.github.io/r-novice-inflammation/) and [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/) tutorials from Software Carpentry. 
 
 ### Git and GitHub
 
