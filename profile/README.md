@@ -26,6 +26,8 @@ biol-cancerinf-2020 directory structure (as of November 2023):
 
 ## Getting started 
 
+Please follow the information below and the [Mason Lab Linux onboarding information page](https://asmasonomics.github.io/courses/MasonLab_Linux_onboarding)
+
 ### Viking account
 
 If you haven't already, complete the [Viking user application form](https://docs.google.com/forms/d/e/1FAIpQLSfXkL10ypU6EQCBB2jS5oDwTpRMo77ppl7dvdbLnXm5zrKR7Q/viewform) to request a Viking account.  
